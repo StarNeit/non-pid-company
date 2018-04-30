@@ -317,7 +317,7 @@ body{
     color: #7F8FA4;
     letter-spacing: 0.13px;
     line-height: 16px;
-    margin-bottom: 17px;
+    margin-bottom: 5px;
 }
 
 .new_company__header__logo__note3{
@@ -326,6 +326,15 @@ body{
     color: #7F8FA4;
     letter-spacing: 0.13px;
     line-height: 16px;
+}
+
+.new_company__header__logo__note3_1{
+    font-family: 'ProximaNovaBold';
+    color: #5F6DFF;
+    font-size: 7px;
+    text-align: left;
+    line-height: 16px;
+    letter-spacing: 0.13px;
 }
 
 .new_company__header__overview{
@@ -362,6 +371,7 @@ body{
     color: #7F8FA4;
     letter-spacing: 0.13px;
     line-height: 16px;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -379,6 +389,7 @@ body{
 
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .new_company__header__overview__item__value.green{
@@ -406,6 +417,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 200px;
+    padding-top: 40px;
 }
 
 .new_company__main__menu{
@@ -478,7 +490,7 @@ body{
     letter-spacing: 0.41px;
     line-height: 36px;
 
-    max-width: 725px;
+    /*max-width: 725px;*/
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -499,7 +511,7 @@ body{
     padding-top: 15px;
 }
 
-.new_company__main__about__smtitle > a{
+.new_company__main__about__smtitle a{
     font-family: 'ProximaNovaBold';
     color: #6170FF;
     font-size: 14px;
