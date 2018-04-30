@@ -51,6 +51,40 @@ $(document).ready(function(){
             $(this).text("FOLLOWING");
         }
     });
+
+
+
+
+    /**
+     * Menu
+     */
+    $(".new_company__main__menu__item").on("click", function(){
+        $(".new_company__main__menu__item").removeClass("active");
+        $(this).addClass("active");
+    });
+
+    $("#cp_menu_about").on("click", function(){
+        $(".new_company__main_cont").hide();
+        $(".new_company__main__about").show();
+    });
+    $("#cp_menu_tech").on("click", function(){
+        $(".new_company__main_cont").hide();
+        $(".new_company__main__tech").show();
+    });
+    $("#cp_menu_customer").on("click", function(){
+        $(".new_company__main_cont").hide();
+        $(".new_company__main__customer").show();
+    });
+    $("#cp_menu_competitor").on("click", function(){
+        $(".new_company__main_cont").hide();
+        $(".new_company__main__competitor").show();
+    });
+
+
+    $(".new_company__main__customer__menu__item").on("click", function () {
+        $(".new_company__main__customer__menu__item").removeClass("active");
+        $(this).addClass("active");
+    });
 });
 
 var lastScrollTop = 0;
